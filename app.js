@@ -179,6 +179,49 @@
 // console.log(typeof showName);
 
 
+// ======================================Implicit Conversion========================================
+// // Implicit conversion means JavaScript automatically
+// converts one data type into another when needed.
+
+// let a = 10;
+// console.log(a+20);
+// console.log(a-20);
+// console.log(a*20);
+// console.log(a/20);
+// console.log(a%20);
+// console.log('hello'-200); //NaN not a number
+// console.log(a+'20');
+
+
+// ================================Explicit conversion==========================================
+// Explicit conversion means the programmer manually
+// converts one data type into another.
+// let a = 100
+// console.log(String(a));
+// console.log(typeof String(a));
+
+// let a = '200';
+// console.log(Number(a));
+// console.log(typeof Number(a));
+
+// let a = 1;
+// console.log(Boolean(a));
+// console.log(Boolean(0));
+// console.log(Boolean(''));
+// console.log(Boolean(10));
+// console.log(Boolean('hi'));
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
