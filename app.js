@@ -278,16 +278,49 @@
 
 // PRACTICE Question 5
 // console.log(`
-    
-    
+
+
 //     Hello
 //     I'm multi
 //     line
 //     of
 //     code
-    
+
 
 //     `)
+
+
+// <===============================Arithematic Operators========================================>
+// used to perform the basic mathematicals operation.
+let a = 10;
+let b = 5;
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);
+// ** (Exponentiation Operator)
+// Raises a number to the power of another number.
+// Multiply the first number by itself as many times as the second number.
+console.log(a ** b);
+
+// Post Increment = print then update value
+a++;
+console.log(a);
+// Pre Increment = print and update at a same time
+console.log(++a);
+// Post Decrement = print then update value
+a--;
+console.log(a);
+// Pre Decrement = print and update at a same time
+console.log(--a);
+
+
+
+
+
+
+
 
 
 
