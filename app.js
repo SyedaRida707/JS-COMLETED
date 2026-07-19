@@ -1,3 +1,10 @@
+// <=========================Basic==========================>
+
+// document.write('to show on web-page');
+// console.log(10+20);
+// alert('Hello today is 8-6-2025')
+//prompt('enter any num')
+
 // <============== variable ==============>
 
 // var: is function-scoped (NOT block-scoped).
@@ -210,6 +217,91 @@
 // console.log(Boolean(''));
 // console.log(Boolean(10));
 // console.log(Boolean('hi'));
+
+// <=======================================Convert Number====================================>
+// parseInt() convert number give only number not float numbers
+// let a = '67.7';
+// console.log(parseInt(a));
+
+// parseFloat() convert number give only float numbers
+// let b = '67.7';
+// console.log(parseFloat(b));
+
+// Number() convert number give both number and float
+// let c = '67.7';
+// console.log(Number(c));
+
+//  + convert number and give both number, and float
+// let d = '67.7';
+// console.log(+d);
+
+// let a = Number(prompt('enter any number one'));
+// let b = Number(prompt('enter any number two'));
+
+// console.log(a + b, typeof a, typeof b);
+
+
+// PRACTICE Question 1
+// let $name = 'Qurat ul Ain';
+// let $age = 40;
+// let $isStudent = true;
+// console.log(`
+//     Name = ${$name} 
+//     Age = ${$age}
+//     Student = ${$isStudent}`);
+
+// PRACTICE Question 2
+// let task = 'Bignner level';
+// document.writeln(task);
+
+// PRACTICE Question 3
+// let count = 10;
+// document.write(count+5);
+// console.log(count += 5);
+
+// PRACTICE Question 4
+// let a = 10;
+// let b = 5;
+// let c = b;
+// console.log(`${a},${b},${c}`);
+// b = a;
+// a = c;
+// console.log(`${a},${b},${c}`);
+
+// OR
+// let a = 10;
+// let b = 5;
+// a = a + b;
+// b = a - b;
+// a = a - b
+// console.log(`${a} ${b}`);
+
+// PRACTICE Question 5
+// console.log(`
+    
+    
+//     Hello
+//     I'm multi
+//     line
+//     of
+//     code
+    
+
+//     `)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
