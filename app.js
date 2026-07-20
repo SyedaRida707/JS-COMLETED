@@ -246,7 +246,7 @@
 // let $age = 40;
 // let $isStudent = true;
 // console.log(`
-//     Name = ${$name} 
+//     Name = ${$name}
 //     Age = ${$age}
 //     Student = ${$isStudent}`);
 
@@ -292,28 +292,112 @@
 
 // <===============================Arithematic Operators========================================>
 // used to perform the basic mathematicals operation.
-let a = 10;
-let b = 5;
-console.log(a + b);
-console.log(a - b);
-console.log(a * b);
-console.log(a / b);
-console.log(a % b);
+// let a = 10;
+// let b = 5;
+// console.log(a + b);
+// console.log(a - b);
+// console.log(a * b);
+// console.log(a / b);
+// console.log(a % b);
 // ** (Exponentiation Operator)
 // Raises a number to the power of another number.
 // Multiply the first number by itself as many times as the second number.
-console.log(a ** b);
+// console.log(a ** b);
 
 // Post Increment = print then update value
-a++;
-console.log(a);
+// a++;
+// console.log(a);
 // Pre Increment = print and update at a same time
-console.log(++a);
+// console.log(++a);
 // Post Decrement = print then update value
-a--;
-console.log(a);
+// a--;
+// console.log(a);
 // Pre Decrement = print and update at a same time
-console.log(--a);
+// console.log(--a);
+
+
+// <===============================Assignment Operators========================================>
+// Assignment operators are used to assign a value to a variable or update the value of a variable.
+// let a = 10;
+// let b = 5;
+// b = b + b
+// console.log(a += b); // a = a + b
+// console.log(a -= b);
+// console.log(a *= b);
+// console.log(a /= b);
+// console.log(a %= b);
+
+// PRACTICE Question 6
+// let a = 10;
+// let b = 5;
+// let c = a;
+// a = b;
+// b = c;
+// console.log(a,b);
+
+// a += b // 15
+// b = a - b // 10
+// a -= b // 5
+// console.log(a, b);
+
+
+// <===============================Comparison Operators========================================>
+// used two compare two values.
+// let a = 10;
+// let b = 5;
+// Loose Equality : Checks only the value, not the data type.
+// console.log(a == '10');
+// console.log(a != '10');
+// Strict Equality : Checks both the value AND the data type.
+// console.log(a === '10');
+// console.log(a !== '10');
+// console.log(a > b);
+// console.log(a < b);
+// console.log(a >= b);
+// console.log(a <= b);
+
+//PRACTICE Question 7
+// (60>50) = true and true value is 1
+// so (60>50) = 1 + 5 =6
+// console.log((60>50)+5);
+
+//PRACTICE Question 8
+// let a = 10;
+// let b = 5;
+// let c = 4;
+// console.log(a > b > 4); //1 > 4 // false
+
+//PRACTICE Question 9
+// let a = 10;
+// let b = 5;
+// let c = 4;
+// console.log(b < a < c); // true
+
+
+// <===============================Logical Operators========================================>
+// Logical operators are used to combine two or more conditions and return a Boolean (true or false).
+
+// let a = 20;
+// let b = 10;
+// Logical AND (&&): Returns true only if both conditions are true.
+// console.log(a > b && b < a);
+
+// Logical OR (||): Returns true if at least one condition is true.
+// console.log(a > b || a < b);
+
+// Logical NOT (!): Reverses the Boolean result (true becomes false, false becomes true).
+// console.log(!(a === b));
+
+
+
+
+
+
+
+
+
+
+
 
 
 
