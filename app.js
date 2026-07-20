@@ -425,6 +425,181 @@
 // console.log(result);
 
 
+// <===============================CONDITIONAL STATEMENT========================================>
+// Conditional statements are used to make decisions in a program based on a condition.
+
+// <=============== (if statement) ======================>
+// The if statement executes a block of code only if the specified condition is true.
+// if (true) {
+//     console.log('hello world');
+// }
+
+// if (20 > 5) {
+//     // Code to execute if the condition is true
+//     console.log('This condition is true!...');
+// }
+
+// if (20 < 5) {
+//     // Code is not execute if the condition is false
+//     console.log('This condition is true!...');
+// }
+
+
+// <=============== (if else statement) ======================>
+// The if...else statement executes one block of code if the condition is true, otherwise it executes another block.
+// if (20 < 5) {
+//      // Runs if the condition is true
+//     console.log('This condition is true!...');
+// } else {
+//     // Runs if the condition is false
+//     console.log('This condition is false!...');
+// }
+
+// let age = 18;
+// if (age >= 18) {
+//     console.log('Adult');
+// } else {
+//     console.log('Minor');
+// }
+
+
+//PRACTICE Question 12
+// let _userNum = +prompt('enter the no to check that is even or odd');
+// if (_userNum % 2 === 0) {
+//     console.log(`This is the even number ${_userNum}`);
+// } else {
+//     console.log(`This is the odd number ${_userNum}`);
+// }
+
+
+// <=============== (if...else if..else statement) ======================>
+// if...else if...else means: "Check multiple conditions one by one, and execute the first matching block; if none match, execute the else block."
+
+// let grade = +prompt('enter your number between 1 to 100');
+// if (grade >= 90) {
+//     // Runs if condition1 is true
+//     console.log(`your grade is A 😉`);
+// } else if (grade >= 80) {
+//     // Runs if condition2 is true
+//     console.log(`your grade is B 😊`);
+// } else if (grade >= 60) {
+//     // Runs if condition3 is true
+//     console.log(`your grade is C 😃`);
+// } else {
+//     // Runs if none of the above conditions are true
+//     console.log(`your grade is D 😢`);
+// }
+
+
+// <=============== (Nested if..else statement) ======================>
+// A nested if...else statement is an if...else statement inside another if...else statement.
+// let _user = prompt('enter name');
+
+// if (_user === 'admin') {
+//     let _password = +prompt('enter password');
+//     if (_password === 1234) {
+//         // Runs if both conditions 1 2 are true
+//         console.log('you are login');
+//     } else {
+//         // Runs if condition1 is true but condition2 is false
+//         console.log('incorrect password');
+//     }
+// } else {
+//     // Runs if condition1 is false
+//     console.log('incorrect name');
+// }
+
+
+// <=============== (Switch case statement) ======================>
+// The switch statement checks one value against multiple values cases and executes the matching case.
+// case → Defines a possible matching value.
+// break → Stops execution after the matched case.
+// default → Runs if no case matches. It works like the else block in an if...else statement.
+
+// let a = +prompt('enter day number')
+// switch (a) {
+//     case 1:
+//         // Code to execute if case 1 is match
+//         console.log('today is monday');
+//         break;
+//     case 2:
+//         // Code to execute if case 2 is match
+//         console.log('today is tuesday');
+//         break;
+//     case 3:
+//         // Code to execute if case 3 is match
+//         console.log('today is wednessday');
+//         break;
+//     case 4:
+//         // Code to execute if case 4 is match
+//         console.log('today is thursday');
+//         break;
+//     case 5:
+//         // Code to execute if case 5 is match
+//         console.log('today is friday');
+//         break;
+//     case 6:
+//         // Code to execute if case 6 is match
+//         console.log('today is saturday');
+//         break;
+//     default:
+//         // Code to execute if no case matches
+//         console.log('today is sunday');
+//         break;
+// }
+
+//PRACTICE Question 13
+// let signals = prompt('enter the traffic signal color 🔴🟢🟡');
+// switch (signals) {
+//     case 'red':
+//         console.log('stop');
+//         break;
+//     case 'yellow':
+//         console.log('ready');
+//         break;
+//     case 'green':
+//         console.log('go');
+//         break;
+//     default:
+//         console.log('invalid signal color');
+//         break;
+// }
+
+//PRACTICE Question 14 Mini calculator
+// let num1 = +prompt('enter the num 1');
+// let num2 = +prompt('enter the num 2');
+// let operator = prompt(`enter the operator to calculation 
+//     +(addition),
+//     -(subtraction),
+//     *(multiplication), 
+//     /(division),
+//      %(division give remainder value)`);
+
+// switch (operator) {
+//     case '+':
+//         console.log(num1 + num2);
+//         break;
+//     case '-':
+//         console.log(num1 - num2);
+//         break;
+//     case '*':
+//         console.log(num1 * num2);
+//         break;
+//     case '/':
+//         console.log(num1 / num2);
+//         break;
+//     case '%':
+//         console.log(num1 % num2);
+//         break;
+//     default:
+//         console.log('invalid operator');
+//         break;
+// }
+
+
+
+
+
 
 
 
