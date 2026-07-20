@@ -389,6 +389,34 @@
 // console.log(!(a === b));
 
 
+// <===============================String Operator========================================>
+// String operators are used to join (concatenate) two or more strings into a single string.
+// let _firstName = 'Rida';
+// let _lastName = 'Abid';
+// console.log(_firstName + ' ' + _lastName);
+// Append string : add something to the end value of an existing value.
+// console.log(_firstName += '!');
+
+// <===============================Ternary Operator========================================>
+// The ternary operator (? :) is a shorthand way of writing an if...else statement.
+// condition ? valueIfTrue : valueIfFalse;
+// let age = 25;
+// let checkAge = (age >= 18) ? 'Adult' : 'Minor';
+// console.log(checkAge);
+
+// let a = 50;
+// let b = 40;
+// console.log((a > b) ? 'This is true' : 'This is false');
+// let result = (a > b) ? 'This is the Correct' : 'This is incorrect';
+// console.log(result);
+
+
+
+
+
+
+
+
 
 
 
