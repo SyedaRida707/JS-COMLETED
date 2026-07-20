@@ -411,6 +411,24 @@
 // console.log(result);
 
 
+//PRACTICE Question 10
+// let age = +prompt('Enter your age to check wheather your eligible or not...?😃');
+// let result = (age >= 18) ? 'Your eligible for this course 😉' : 
+// 'Your not eligible for this course 😢';
+// alert(result)
+
+//PRACTICE Question 11
+// let num1 = +prompt('enter num one to check which number is greater');
+// let num2 = +prompt('enter num two to check which number is greater');
+// let result = (num1 > num2) ? `Number One is ${num1} greater than number 2` :
+//     `Number two is ${num2} greater than number 1`;
+// console.log(result);
+
+
+
+
+
+
 
 
 
