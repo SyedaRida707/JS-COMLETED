@@ -596,6 +596,41 @@
 //         break;
 // }
 
+//PRACTICE Question 15
+// let num = +prompt('enter the any number');
+// if(num>100){
+//     console.log(`your number is greater than 100 your num is ${num}`);
+// }
+
+//PRACTICE Question 16
+// Write a JavaScript program to check whether a given year is a Leap Year or Not a Leap Year.
+
+// A normal year has 365 days. Every 4 years, one extra day is added, making it 366 days. This is called a Leap Year.
+
+// If the year is divisible by 4 and not divisible by 100 →  Leap Year
+// Else if the year is divisible by 400 →  Leap Year
+// Otherwise →  Not a Leap Year
+
+// let year = +prompt('Enter the any year to check this year is leap year or not...?📅');
+// if (year % 4 == 0 && year % 100 != 0) {
+//     console.log(`This is leap year ${year}`);
+// } else if (year % 400 == 0) {
+//     console.log(`This is leap year ${year}`);
+// } else {
+//     console.log(`This is not the leap year ${year}`);
+// }
+
+// if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+//     console.log(`This is leap year ${year}`);
+// } else {
+//     console.log(`This is not the leap year ${year}`);
+// }
+
+//PRACTICE Question 17
+let num = +prompt('enter the num to check the num is positive even & positive odd and negative');
+if(num >0 )
+
+
 
 
 
