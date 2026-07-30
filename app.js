@@ -627,8 +627,69 @@
 // }
 
 //PRACTICE Question 17
-let num = +prompt('enter the num to check the num is positive even & positive odd and negative');
-if(num >0 )
+// let num = +prompt('enter the num to check the num is positive even & positive odd and negative');
+// if (num > 0) {
+//     if (num % 2 == 0) {
+//         console.log('This num is positive even');
+//     }
+//     else {
+//         console.log('This num is positive even');
+//     }
+// } else if (num === 0) {
+//     console.log('This num is 0');
+// } else {
+//     console.log('This num is negative');
+// }
+
+//PRACTICE Question 18
+// let dicount = +prompt('enter the num to check discount');
+// if (dicount > 1000) {
+//     console.log('20% dicount');
+// } else if (dicount > 500) {
+//     console.log('10% dicount');
+// } else {
+//     console.log('no dicount at all');
+// }
+
+//PRACTICE Question 19
+// let weather = +prompt('enter the temprature to check weather...?')
+// if (weather > 35) {
+//     console.log('very hot 🌞');
+// } else if (weather > 25 && weather < 35) {
+//     console.log('hot 🌞');
+// } else if (weather > 15 && weather < 25) {
+//     console.log('pleasant 🌤');
+// } else if (weather > 10 && weather < 15) {
+//     console.log('cold ☃');
+// } else {
+//     console.log('very cold 🥶🌨');
+// }
+
+//PRACTICE Question 20
+// let user = +prompt(`enter any num to check bank information
+//                     ATM Action Menu 🏦
+//                     1 Check Blance
+//                     2 withdraw
+//                     3 Deposit
+//                     4 Exit`)
+// switch (user) {
+//     case 1:
+//         console.log('Check Blance');
+//         break;
+//     case 2:
+//         console.log('withdraw');
+//         break;
+//     case 3:
+//         console.log('Deposit');
+//         break;
+//     case 4:
+//         console.log('Exit');
+//         break;
+//     default:
+//         console.log('Invalid num');
+//         break;
+// }
+
 
 
 
