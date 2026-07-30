@@ -12,7 +12,7 @@
 //     // console.log(i);
 // }
 
-// for (let i = 5; i >= 0; --i) {
+// for (let i = 5; i >= 0; i--) {
 //     console.log(i);
 // }
 // console.log(i); //give error
@@ -35,3 +35,50 @@
 // for(let i = 1; i <= 100; i = i + 2){
 //     console.log(i,`odd`);
 // }
+
+
+// <======================================while loop======================================>
+// when we don't know how many time will run loop
+// let i = 1;
+// while (i <= 5) {
+//     console.log(i);
+//     i++;
+// }
+// console.log(i); // true because we declare variable outside.
+
+
+
+// when we don't know how many time user give password
+
+// We don't know how many times the user will enter the wrong PIN. So we keep asking until they enter the correct one.
+
+// let pin = '';
+// while (pin !== '1234') {
+//     pin = prompt('enter your pin...?');
+//     console.log(pin);
+// }
+
+// User enters 1111 ❌ → Ask again
+// User enters 5555 ❌ → Ask again
+// User enters 9999 ❌ → Ask again
+// User enters 1234 ✅ → Stop
+
+
+
+
+// <======================================while loop======================================>
+// firstly execute body then condition check or if condition false atleast one time run
+
+// let i = 1;
+// do {
+//     console.log(i);
+//     i++;
+// } while (i <= 10);
+
+
+// let i = 11;
+// do {
+//     console.log(i);
+//     i++;
+// } while (i <= 10);
+
