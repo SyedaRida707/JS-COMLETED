@@ -206,14 +206,53 @@
 // console.log(sum);
 
 // Task 4
-for (let i = 1; i <= 10; i++) {
-    if (i % 2 === 0) {
-        document.writeln(`even numbers ${i} <br>`)
-        continue;
-    } else {
-        document.writeln(`odd numbers ${i} <br>`)
-    }
-}
+// for (let i = 1; i <= 10; i++) {
+//     if (i % 2 === 0) {
+//         continue;
+//         document.writeln(`even numbers ${i} <br>`)
+//     } else {
+//         document.writeln(`odd numbers ${i} <br>`)
+//     }
+// }
+
+// Task 5
+// continue will skip the increment which is why the loop become infinite
+// let i = 1;
+// while (i <= 10) {
+//     if (i % 2 === 0) {
+//         document.writeln(`even numbers ${i} <br>`)
+//     } else {
+//         document.writeln(`odd numbers ${i} <br>`)
+//     }
+//     i++;
+// }
+
+// Task 6
+// for (let n = 20; n >= 1; n--) {
+//     console.log(n);
+// }
+
+// Task 7
+// let user = +prompt('enter any num to check prime number ?');
+// let isPrime = true;
+
+// for (let i = 2; i < user; i++) {
+//     if (user % i == 0) {
+//         console.log(user, i);
+//         isPrime = false;
+//         break;
+//     }
+// }
+
+// if (isPrime) {
+//     console.log(`This is prime number ${user}`);
+// } else {
+//     console.log(`This is not prime number ${user}`);
+// }
+
+
+// Task 8
+
 
 
 
