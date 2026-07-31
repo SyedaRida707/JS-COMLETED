@@ -135,6 +135,7 @@
 //     name: 'rida',
 //     age: '21'
 // }
+
 // for (let r in $tudent) {
 //     // r = name
 //     console.log(r, $tudent[r]);
@@ -142,8 +143,81 @@
 //     console.log($tudent.name);  // direct access
 //     console.log($tudent['name']);  // access through the string
 //     console.log($tudent[r]);   // access through variable
-
 // }
+
+// <======================================Nested loop======================================>
+// A nested loop in JavaScript is a loop inside another loop. The inner loop completes all
+// its iterations for each iteration of the outer loop.
+
+// for (let i = 1; i <= 5; i++) {
+//     document.writeln(`Iteration ${i} <br>`);
+//     for (let j = 1; j <= 5; j++) {
+//         document.writeln(`*`);
+//     }
+//     document.writeln(`<br>`);
+// }
+
+
+// for (let i = 1; i <= 3; i++) {
+//     console.log('This is outer loop', i);
+//     for (let j = 1; j <= 2; j++) {
+//         console.log('This is inner loop', i);
+//     }
+// }
+
+
+//  for multiplication
+// for (let i = 1; i <= 3; i++) {
+//     for (let j = 1; j <= 2; j++) {
+//         document.writeln(`${i} x ${j} = ${i * j} <br>`);
+//     }
+// }
+
+
+// for (let i = 5; i >= 1; i--) {
+//     document.writeln(`${i}`);
+//     for (let j = 1; j <= i; j++) {
+//         document.writeln(`*`);
+//     }
+//     document.writeln(`<br>`);
+// }
+
+
+// for (let i = 1; i <= 5; i++) {
+//     document.writeln(`${i}`);
+//     for (let j = 1; j <= i; j++) {
+//         document.writeln(`*`);
+//     }
+//     document.writeln('<br>')
+// }
+
+
+// Task 2
+// for (let a = 1; a <= 10; a++) {
+//     document.writeln(`2 x ${a} = ${a * 2} <br>`)
+// }
+
+// Task 3
+// let sum = 0;
+// for (let i = 1; i <= 5; i++) {
+//     sum = sum + i
+//     console.log(i);  
+// }
+// console.log(sum);
+
+// Task 4
+for (let i = 1; i <= 10; i++) {
+    if (i % 2 === 0) {
+        document.writeln(`even numbers ${i} <br>`)
+        continue;
+    } else {
+        document.writeln(`odd numbers ${i} <br>`)
+    }
+}
+
+
+
+
 
 
 
