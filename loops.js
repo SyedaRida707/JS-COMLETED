@@ -252,6 +252,59 @@
 
 
 // Task 8
+// let user = +prompt('enter a any num to check its perfect number...?');
+// let sum = 0;
+
+// for (let i = 1; i <  user; i++) {
+//     if (user % i === 0) {
+//         sum += i;
+//         console.log(sum, i);
+//     }
+// }
+
+// if (sum === user) {
+//     console.log('its perfect num', sum, user);
+// } else {
+//     console.log('its not perfect num', sum, user);
+// }
+
+
+// Task 9
+// Convert 12345 into 54321
+// let num = 12345;
+// let reserve = 0;
+
+// while (num > 0) {
+//     let lastDigit = num % 10;
+//     reserve = reserve * 10 + lastDigit
+//     num = parseInt(num / 10)
+// }
+// console.log(reserve);
+
+//Round 1
+// lastDigit = 12345 % 10 = 5
+// reverse = 0 * 10 + 5 = 5
+// num = 12345 / 10 = 1234
+
+//Round 2
+// lastDigit = 1234 % 10 = 4
+// reverse = 5 * 10 + 4 = 54
+// num = 1234 / 10 = 123
+
+//Round 3
+// lastDigit = 123 % 10 = 3
+// reverse = 54 * 10 + 3 = 543
+// num = 123 / 10 = 12
+
+//Round 4
+// lastDigit = 12 % 10 = 2
+// reverse = 543 * 10 + 2 = 5432
+// num = 12 / 10 = 1
+
+//Round 5
+// lastDigit = 1 % 10 = 1
+// reverse = 5432 * 10 + 1 = 54321
+// num = 1 / 10 = 0.1 = 0
 
 
 
