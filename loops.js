@@ -65,8 +65,7 @@
 
 
 
-
-// <======================================while loop======================================>
+// <======================================do while loop======================================>
 // firstly execute body then condition check or if condition false atleast one time run
 
 // let i = 1;
@@ -81,4 +80,70 @@
 //     console.log(i);
 //     i++;
 // } while (i <= 10);
+
+
+// <======================================Continue======================================>
+// Continue => skip the the part
+// for (let i = 0; i <= 5; i++) {
+//     if (i === 4) {
+//         continue
+//         // Skip the rest of the current iteration and immediately go to the update step (i++).
+//     }
+//     console.log(i);
+// }
+
+
+// <======================================break======================================>
+// break => exit the the part
+// for (let i = 0; i <= 5; i++) {
+//     if (i === 4) {
+//         break;
+//         // exits the loop immediately. It does not execute console.log(i), i++, or any further iterations.
+//     }
+//     console.log(i);
+// }
+
+
+// <======================================for of loop======================================>
+// //  for..of iteration karta hai string pr or array pr split krke value deta
+// when you only need the values iterating over an array, string, or other iterable.
+
+// let $name = 'Syeda Rida';
+// let i = '';
+// for (let n of $name) {
+//     i++;
+//     console.log(n, i);
+// }
+
+// let $family = ['Abid','Qurat','Atruba','Rida','Muqsit','Mutib','Muhib'];
+// for(let i of $family){
+//     console.log(i);
+// }
+
+
+// <======================================for in loop======================================>
+// The for...in loop is used to iterate over the keys (property names) of an object.
+
+// let _nums = [10, 20, 30, 40, 50];
+// for (let e in _nums) {
+//     console.log('Give index ' + e,' Give value',_nums[e]);
+// }
+
+
+// let $tudent = {
+//     // Key      Value
+//     name: 'rida',
+//     age: '21'
+// }
+// for (let r in $tudent) {
+//     // r = name
+//     console.log(r, $tudent[r]);
+
+//     console.log($tudent.name);  // direct access
+//     console.log($tudent['name']);  // access through the string
+//     console.log($tudent[r]);   // access through variable
+
+// }
+
+
 
