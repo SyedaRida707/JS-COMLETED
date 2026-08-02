@@ -96,9 +96,29 @@
 // <==================    METHODS   =======================>
 //Mutating methods means modifying original array
 
-// push
+// push()
 // (Adds elements to the end of an array);
 // (Changes the original array.)
 // (Returns the new length of the array.)
+
+// let nums = [10, 20, 30];
+// console.log(nums, nums.length);
+// nums.push(40, 50);
+// console.log(nums, nums.length);
+
+// pop()
+// (Removes the last element from an array.)
+// (Changes the original array.)
+// (Returns the removed element.)
+// (Returns undefined if the array is empty.)
+
+let num = [1,2,3,4,5];
+// num.pop();
+
+console.log(num.pop(2));
+
+
+
+
 
 
