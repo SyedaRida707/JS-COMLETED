@@ -179,8 +179,42 @@
 // let a = ['a','c','b'];
 // console.log(a.sort());
 
-let a = [100,80,40,50];
-console.log(a.sort());
+// let a = [100, 80, 40, 50];
+// Ascending order
+// console.log(a.sort((a, b) => a - b));
+// Descending order
+// console.log(a.sort((a, b) => b - a));
+
+
+// reverse()
+// (The reverse() method is used to reverse the order of elements in an array.)
+// (It changes the original array.)
+// (It returns the reversed array.)
+
+// let nums = [10, 20, 30, 40];
+// console.log(nums.reverse());
+
+// let a = ['a','c','b'];
+// console.log(a.reverse());
+
+
+// fill()
+// fill(value, start, end);
+// (The fill() method is used to replace array elements with a given value.)
+// (It fills the array with the same value from a starting index to an ending index.)
+// (It modifies the original array.)
+// (It returns the modified array.)
+// (The end index is not included.)
+
+let nums = [10, 20, 30, 40,50];
+// console.log(nums.fill(77,1,4));
+
+console.log(nums.fill(22,1,-2));
+
+
+
+
+
 
 
 
