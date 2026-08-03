@@ -112,10 +112,81 @@
 // (Returns the removed element.)
 // (Returns undefined if the array is empty.)
 
-let num = [1,2,3,4,5];
+// let num = [1,2,3,4,5];
 // num.pop();
+// console.log(num.pop());
+// let arr = [];
+// console.log(arr.pop());
 
-console.log(num.pop(2));
+
+// unshift()
+// (Adds elements to the beginning of an array.)
+// (Modifies the original array.)
+// (Returns the new length of the array.)
+
+// let arr = [1, 2, 3, 4];
+// console.log(arr, arr.length);
+// arr.unshift(-1, 0)
+// console.log(arr, arr.length);
+
+
+// shift()
+// (Removes the first element of the array.)
+// (Modifies the original array.)
+// (Returns the removed element.)
+// (Returns undefined if the array is empty.)
+
+// let fruits = ['apple','cherry','strawberry'];
+// console.log(fruits);
+// console.log(fruits.shift());
+
+// let arr = [];
+// console.log(arr.shift());
+
+
+// splice()
+// (Add, remove, or replace elements in an array.)
+// (Modifies the original array)
+// (An array of the removed elements.)
+
+// let arr = [1, 2, 3, 4];
+// add
+// arr.splice(0,0,11,22);
+// console.log(arr);
+// arr.splice(-1, 0, 11, 22);
+// console.log(arr);
+
+
+// remove
+// arr.splice(1,2)
+// console.log(arr);
+
+// remove all
+// arr.splice(1);
+// console.log(arr);
+
+// replace
+// arr.splice(3, 1, 33);
+// console.log(arr);
+
+
+// sort()
+// (The sort() method is used to sort the elements of an array.)
+// (It modifies the original array (in-place).)
+// (It also returns the sorted array.)
+
+
+// let a = ['a','c','b'];
+// console.log(a.sort());
+
+let a = [100,80,40,50];
+console.log(a.sort());
+
+
+
+
+
+
 
 
 
