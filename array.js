@@ -206,13 +206,21 @@
 // (It returns the modified array.)
 // (The end index is not included.)
 
-let nums = [10, 20, 30, 40,50];
+// let nums = [10, 20, 30, 40, 50];
 // console.log(nums.fill(77,1,4));
-
-console.log(nums.fill(22,1,-2));
-
+// console.log(nums.fill(22,1,5));
 
 
+
+// <=========================================>
+
+
+// TASk 6
+let i = [1,2,3,4,5];
+for(let a of i){
+    i.pop();
+    console.log(i);
+}
 
 
 
