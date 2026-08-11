@@ -216,11 +216,182 @@
 
 
 // TASk 6
-let i = [1,2,3,4,5];
-for(let a of i){
-    i.pop();
-    console.log(i);
-}
+// let i = [1, 2, 3, 4, 5];
+// for (let a of i) {
+//     i.pop();
+//     console.log(i);
+// }
+
+
+// <=========================================>
+
+
+// TASk 7
+// let r = [1, 2, 3, 4];
+// for (let a of r) {
+//     r[3] = a;
+//     console.log(a);
+//     console.log(r);
+// }
+
+
+// <=========================================>
+
+
+// <==================    METHODS   =======================>
+//Non-Mutating methods means return a new array or value without modifying the original array.
+
+
+// slice()
+// (original array is not changed.)
+// (Returns a new array containing selected elements.)
+
+// let i = [1, 3, 4, 5, 7];
+// let copyArray = i.slice(0, 4);
+// console.log(copyArray);
+// console.log(i);
+// console.log(i.slice(-2));
+
+// concat()
+// (used to join/merge arrays and return a new array.)
+// (combine arrays without changing the originals.)
+
+
+// let a = ['a','b','c'];
+// let b = ['d','e','f'];
+// let merge = a.concat(b);
+// console.log(merge);
+
+
+// includes()
+// (checks whether an array contains a specific value.)
+// (doesn't modify the original array.)
+// (true → value exists)
+// (false → value doesn't exist)
+
+// let i = [2,5,6,7];
+// console.log(i.includes(6));
+// console.log(i.includes(9));
+
+
+
+
+// indexof()
+// (finds the index (position) of a specific value in an array.)
+// (If the value doesn't exist, it returns -1)
+
+
+// let i = [10,30,20,50];
+// console.log(i.indexOf(20));
+// console.log(i.indexOf(60));
+
+
+
+// join()
+// (converts array elements into a string and puts a separator between them.)
+
+// let a = [1, 2, 3, 4, 5];
+// console.log(a.join());
+// console.log(a.join('👻'));
+
+
+
+// tostring()
+// (converts an array into a string. toString mean give , separated values)
+// (uses commas by default)
+
+// let a = [1, 2, 3, 4, 5];
+// console.log(a.toString());
+
+
+// <=========================================>
+
+
+// TASk 8
+// let a = [1,2,3,5];
+// let b = [2,4,3,5];
+
+// for(let i of a){
+//     if(b.includes(i)){
+//         console.log(i);
+//     }
+// }
+
+
+// <=========================================>
+
+
+// TASk 9
+// let a = [1, 1, 2, 3, 5, 3, 4, 4];
+// let finalArray = [];
+// for (let i of a) {
+//     if (!finalArray.includes(i)) {
+//         console.log(finalArray.push(i));
+//     }
+// }
+// console.log(finalArray);
+
+
+
+
+// <=========================================>
+
+
+// TASk 10
+// let a = [10, 100, 200, 50];
+// let maxNum = 0;
+
+// for (let i of a) {
+//     if (i > maxNum) {
+//         maxNum = i;
+//         console.log(maxNum);
+//     }
+// }
+
+// console.log(maxNum);
+
+
+
+
+// <=========================================>
+
+
+// TASk 11
+// let a = [20, 33, 50];
+// let array = [];
+// for (let i of a) {
+//     array.unshift(i)
+//     // array.push(i)
+// }
+// console.log(array);
+
+
+
+// <=========================================>
+
+
+// TASk 12
+// let a = [1, 33, 50, 90];
+// let l = a.length;
+// let final = [];
+// console.log(l);
+
+// for (let i = l - 1; i >= 0; i--) {
+//     final.push(a[i])
+// }
+// console.log(final);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
