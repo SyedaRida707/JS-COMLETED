@@ -235,5 +235,32 @@
 // console.log(a.split(','));
 
 
-let a = 'rida';
-console.log(a.split(""));
+// let a = 'rida';
+// console.log(a.split(""));
+
+
+
+// ==================================================================
+// TASK 4
+// let string = (a) => {
+//     return a.split(' ').length;
+// }
+// console.log(string('hey i am learn js'));
+
+
+
+// ==================================================================
+// TASK 5
+// let string = (a) => {
+//     let count = 0;
+//     for (let i of a) {
+//         if (i === ' ') {
+//             count++;
+//             console.log('space');
+//         }
+//     }
+//     return count;
+// }
+// console.log(string('hey i am learn js'));
+
+
