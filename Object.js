@@ -78,6 +78,35 @@
 
 
 
+// Array Destructuring
+// let a = [10, 20, 30];
+// let [q, r, s] = a;
+// console.log(q);
+// console.log(r);
+// console.log(s);
+
+
+// Skipping item
+// let a = [10, 20, 30];
+// let [, , s] = a;
+// console.log(s);
+
+
+// Rest Operator
+// let a = [10, 20, 30];
+// let [q, ...rest] = a;
+// console.log(q);
+// console.log(rest);
+
+
+
+
+
+
+
+
+
+
 
 
 
