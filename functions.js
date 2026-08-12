@@ -219,7 +219,7 @@
 
 
 // ============================String Method=================================
-// split() covert string into array 
+// split() covert string into array
 // The split() method breaks a string into parts and returns them as an array.
 
 // split() is a string method.
@@ -262,5 +262,43 @@
 //     return count;
 // }
 // console.log(string('hey i am learn js'));
+
+
+
+// ==================================================================
+// TASK 6
+
+// let wordsCheck = (str) => {
+//     let res = str.split(" ");
+//     let word = 0;
+
+//     for (let v of res) {
+//         if (!v == " ") {
+//             word++;
+//         }
+//     }
+//     return word;
+// }
+// console.log(wordsCheck('i am learn js'));
+
+// console.log(false == ' ');
+
+
+// ==================================================================
+
+// let wordsCheck = (str) => {
+//     let res = str.split(" ");
+//     let word = 0;
+
+//     for (let v of res) {
+//         if (v !== " ") {
+//             word++;
+//         }
+//     }
+//     return word;
+// }
+// console.log(wordsCheck('i am learn js'));
+
+
 
 
