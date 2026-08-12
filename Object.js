@@ -100,6 +100,80 @@
 
 
 
+// m = l → Reference copy (l and m point to the same array.)
+// Reference Copy = means behavior and data both copy
+// let l = [1, 2, 3, 4];
+// let m = l;
+// console.log(l);
+// console.log(m);
+// // Ater Push
+// m.push(5, 6);
+// console.log(l);
+// console.log(m);
+
+// shallow copy = means change in own variable not other like m
+// let l = [1, 2, 3, 4];
+// let m = [...l];
+// console.log(l);
+// console.log(m);
+// m.push(5, 6);
+// console.log(l);
+// console.log(m);
+
+
+
+// ==============================================
+
+
+// TASK 1
+// let score = [10, 20, 30];
+// let find = [First, , third] = score;
+// console.log(First, third);
+
+
+
+// ==============================================
+
+
+// TASK 2
+// let student = {
+//     name: 'rida',
+//     age: 21,
+//     Skill: {
+//         course1: 'SMIT',
+//         course2: 'ILMA'
+//     }
+// }
+// let { Skill: { course1 } } = student;
+// console.log(course1);
+
+
+// ==============================================
+
+
+// TASK 3
+// let a = [1, 2, 3];
+// let b = [4, 5, 6];
+// console.log([...a, ...b]);
+// a = [11, 22, ...a, 33]
+// console.log(a);
+
+
+
+// ==============================================
+
+
+// TASK 4
+// const [first, ...second] = [10, 20, 30];
+// console.log(first);
+// console.log(second);
+
+
+
+
+
+
+
 
 
 
