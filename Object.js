@@ -170,6 +170,63 @@
 
 
 
+// =========================Array Higher Order Function=============================
+// higher order function take a callback as an argument
+
+// map() is an Array Method that takes a callback function as an argument,
+//  transforms each element, and returns a new array of the same length without 
+// changing the original array.
+
+// let array = [1, 2, 3];
+// array.map((value, index) => {
+//     console.log(value, 'value');
+//     console.log(index, 'index');
+
+// });
+// console.log(array);
+
+
+
+// when you give in variable then use return.
+// let array = [1, 2, 3];
+// let result = array.map((value, index) => {
+//     console.log(value, index);
+//     return value * 2
+// })
+// console.log(array);
+// console.log(result);
+
+
+
+// let l = [1, 2, 3];
+// let result = l.map(v => v + 2); //automatic give
+// console.log(result);
+
+
+// ==============================================
+
+
+// TASK 5
+// let array = [5, 6, 7];
+// let Square = array.map(v => v * 2);
+// console.log(Square);
+
+
+// ==============================================
+
+
+// TASK 6
+// let a = [1, 2, 3];
+// let Square = a => a ** 2; // 1x1 =1, 2x2 =4, 3x3 =9
+// let result = a.map(Square);
+// console.log(result);
+
+
+
+// let a = [1, 2, 3];
+// let result = a.map(v => v ** 2);
+// console.log(result);
+
 
 
 
