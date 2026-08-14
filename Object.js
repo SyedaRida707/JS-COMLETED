@@ -174,7 +174,7 @@
 // higher order function take a callback as an argument
 
 // map() is an Array Method that takes a callback function as an argument,
-//  transforms each element, and returns a new array of the same length without 
+//  transforms each element, and returns a new array of the same length without
 // changing the original array.
 
 // let array = [1, 2, 3];
@@ -222,13 +222,76 @@
 // console.log(result);
 
 
-
+// OR
 // let a = [1, 2, 3];
 // let result = a.map(v => v ** 2);
 // console.log(result);
 
 
 
+
+// filter() is a js method that creates a new array with all elements
+// that pass a condition specified in a callback function length depend on condition
+
+// let a = [10, 20, 15, 18];
+// let result = a.filter(v => v >= 18);
+// console.log(result);
+
+//  OR
+// let a = [10, 20, 15, 18];
+// let result = a.filter((v) => {
+//     return v >= 18
+// });
+// console.log(result);
+
+//  OR
+// let a = [10, 20, 15, 18];
+// let result = a.filter((v) => {
+//     if (v >= 18) {
+//         return true;
+//     }
+// });
+// console.log(result);
+
+
+
+// ==============================================
+
+
+// TASK 7
+// let users = [
+//     {
+//         name: 'atruba',
+//         age: 22
+//     },
+//     {
+//         name: 'rida',
+//         age: 21
+//     },
+//     {
+//         name: 'raza',
+//         age: 20
+//     },
+//     {
+//         name: 'mutib',
+//         age: 13
+//     },
+//     {
+//         name: 'muhib',
+//         age: 12
+//     }
+// ];
+
+// let result = users.filter(v => v['age'] >= 18)
+// let value = result.map(u => u.age);
+// console.log(result);
+// console.log(value);
+
+
+
+// reduce() adds or combines all the values in an array into one single value. not give array
+let a = [1,2,3,4];
+let result = a.reduce( )
 
 
 
