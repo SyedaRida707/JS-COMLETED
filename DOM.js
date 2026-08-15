@@ -33,6 +33,14 @@
 // if two tag with same name target only one
 
 
+
+// let pClass = document.querySelector('.demo1');  //by class
+// let pId = document.querySelector('#demo2');     //by Id
+// //by tag name P if we have two tag with same tag target only one
+// let p = document.querySelector('p');
+// console.log(pClass, pId, p);
+
+
 // let input = document.querySelector('input');
 // console.log(input);
 // input.placeholder = 'Enter your name 😊'   //change placeholder
@@ -43,12 +51,29 @@
 // console.log(input.type);
 
 
+// ==================Query SelectorAll==================
+// // querySelectorAll select all matching elements 
+// and returns a nodelist, Array work on (Tag,Class)
+// let li = document.querySelectorAll('li');
+// console.log(li);
+// console.log(li[0].innerHTML);
+// console.log(li[1].innerHTML);
+// console.log(li[2].innerHTML);
 
-let pClass = document.querySelector('.demo1');  //by class
-let pId = document.querySelector('#demo2');     //by Id
-//by tag name P if we have two tag with same tag target only one
-let p = document.querySelector('p');
-console.log(pClass, pId, p);
+// ==================================================
+
+// TASK 1
+// let li = document.querySelectorAll('li');
+// li.forEach((value, index) => {
+//     value.innerText = `li ${index + 1}`;
+//     console.log(value.innerText);
+// });
+
+
+
+
+
+
 
 
 
