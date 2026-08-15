@@ -319,6 +319,46 @@
 
 
 
+// find() returns the first element in an array that satisfies
+// a given condition in a callback function not give array give
+// answer through the condition.
+// find() found a matching element, it stops immediately.
+
+// let nums = [2, 3, 4];
+// let result = nums.find(value => value % 2 === 0);
+// console.log(result);
+
+
+// foreach() runs a function once for every element in an array but does not return anything.
+// runs a function once for every element in an array. It is mainly used to perform an action 
+// on each element, and it does not return a new value or array. Its return value is undefined.
+
+// let a = [1, 2, 3];
+// let result = a.forEach(v => console.log(v));
+// console.log(result);
+
+// let a = [1, 2, 3];
+// let result = a.forEach((value, index, array) => {
+//     console.log(value);
+//     console.log(index);
+//     console.log(array);
+// })
+// console.log(result);
+
+// let a = [1, 2, 3];
+// let total = 0;
+// let result = a.forEach((v) => {
+//     console.log(total += v);
+// })
+// console.log(result, total);
+
+
+
+
+
+
+
+
 
 
 
