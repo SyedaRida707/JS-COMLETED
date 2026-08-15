@@ -289,9 +289,33 @@
 
 
 
-// reduce() adds or combines all the values in an array into one single value. not give array
-let a = [1,2,3,4];
-let result = a.reduce( )
+// reduce() adds or combines all the values in an array into one single value. not give array.
+// reduce()
+//    ↓
+// "Take MANY values
+//  and turn them into ONE value."
+
+// let a = [1, 2, 3, 4];                          // sum initial value is 0
+// let result = a.reduce((sum, num) => sum + num, 0)
+// console.log(result);
+
+
+// let a = [1, 2, 3, 4];
+// let result = a.reduce((final, value) => final * value, 1);
+// console.log(result);
+
+
+// let a = [2, 2, 2];
+// let multiply = a.reduce((m, v) => m ** v);
+// console.log(multiply);
+
+
+// let a = [1, 2, 3];
+// let max = a.reduce((m, v) => {
+//     return v > m ? v : m;
+// })
+// console.log(max);
+
 
 
 
