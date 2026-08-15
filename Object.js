@@ -354,6 +354,71 @@
 
 
 
+// ==============================================
+
+
+// TASK 8
+// let users = [
+//     {
+//         name: 'atruba',
+//         age: 22
+//     },
+//     {
+//         name: 'rida',
+//         age: 21
+//     },
+//     {
+//         name: 'raza',
+//         age: 20
+//     },
+//     {
+//         name: 'mutib',
+//         age: 13
+//     },
+//     {
+//         name: 'muhib',
+//         age: 12
+//     }
+// ];
+// users.forEach((value, index) => {
+//     console.log(value);
+//     console.log(index);
+//     console.log(users[0].age);
+// });
+
+
+// ==============================================
+
+
+// TASK 9
+// let nums = [1, 2, 3, 4];
+// let sum = nums.map(n => n + n);
+// console.log(sum);
+
+
+// ==============================================
+
+
+// TASK 10
+// let nums = [2, 3, 5, 7, 10];
+// let result = nums.filter(n => n % 2 === 0);
+// console.log(result);
+
+
+
+// ==============================================
+
+
+// TASK 11
+// let users = [
+//     { Name: 'atruba', age: 70 },
+//     { Name: 'rida', age: 80 },
+//     { Name: 'raza', age: 32 }
+// ];
+// let result = users.find(n => n.age < 35);
+// console.log(result);
+
+
 
 
 
