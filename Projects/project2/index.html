@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark light mode</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .change {
+        background-color: black;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 17px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border: none;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        display: inline-block;
+        border: 2px solid black;
+        box-shadow: 0px 0px 10px gray;
+    }
+
+    button:hover {
+        cursor: pointer;
+        padding: 20px 30px;
+        transition: padding .4s ease-in;
+    }
+
+    .h1Color {
+        color: white;
+    }
+</style>
+
+<body>
+    <!-- <center>
+        <button class="btn1">dark</button>
+        <button class="btn2">Light</button>
+    </center> -->
+
+    <!-- second way -->
+    <button>Light Mode/Dark Mode</button>
+    <h1>I am bulb</h1>
+</body>
+<script>
+    // first way
+    // let btn1 = document.querySelector('.btn1');
+    // let btn2 = document.querySelector('.btn2');
+    // let body = document.querySelector('body');
+    // btn1.addEventListener('click', () => {
+    //     body.style.backgroundColor = 'black'
+    // });
+    // btn2.addEventListener('click', () => {
+    //     body.style.backgroundColor = 'white'
+    // });
+
+    // second way
+    let btn1 = document.querySelector('button');
+    let h1 = document.querySelector('h1');
+
+    btn1.addEventListener('click', () => {
+        document.body.classList.toggle('change');
+        h1.classList.toggle('h1Color')
+    })
+
+
+
+</script>
+
+</html>

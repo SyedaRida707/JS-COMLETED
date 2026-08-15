@@ -85,3 +85,26 @@
 //         btn.style.backgroundColor = 'white';
 //     }
 // });
+
+
+// project 1
+// Create enquiryModel
+
+// ==================Add/Remove/Toggle  class======================
+// let btn1 = document.querySelector('#add');
+// let btn2 = document.querySelector('#remove');
+// let btn3 = document.querySelector('#toggle');
+// let p = document.querySelector('p')
+// // adding class
+// btn1.addEventListener('click', () => {
+//     p.classList.add('active')
+// });
+// // remove class
+// btn2.addEventListener('click', () => {
+//     p.classList.remove('active')
+// });
+// // toggle mean if add so remove and if remove so add
+// btn3.addEventListener('click', () => {
+//     p.classList.toggle('active')
+// });
+
