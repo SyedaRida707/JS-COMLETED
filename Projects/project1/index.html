@@ -5,10 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>enquiryModel</title>
+    <style>
+        body {
+            display: grid;
+            place-items: center;
+
+            & #box {
+                width: 20rem;
+                aspect-ratio: 1;
+                background-color: bisque;
+                /* display: none; */
+                margin-top: -1000px;
+                transition: all .7s ease;
+                box-shadow: 0px 0px 10px gray;
+                border-radius: 10px;
+
+                & h2 {
+                    text-align: center;
+                    position: relative;
+                    text-transform: capitalize;
+
+                    & span {
+                        position: absolute;
+                        right: 30px;
+                        background-color: aliceblue;
+                        padding: 0px 10px;
+                        border-radius: 2px;
+                    }
+                }
+            }
+            & button{
+                padding: 10px 15px;
+                background-color: brown;
+                color: white;
+                border: none;
+            }
+        }
+    </style>
 </head>
 
 <body>
-
+    <button>Click Me!</button>
+    <div id="box">
+        <h2>enquiry Model <span>&times;</span></h2>
+    </div>
 </body>
+<script>
+    let btn = document.querySelector('button');
+    let div = document.querySelector('#box');
+    let span = document.querySelector('span');
+
+    btn.addEventListener('click', () => {
+        // div.style.display = 'block';
+        div.style.marginTop = '20px';
+        span.style.color = 'red';
+        span.style.cursor = 'pointer'
+    });
+
+    setTimeout(() => {
+        // div.style.display = 'block';
+        div.style.marginTop = '20px';
+    }, 2000)
+
+    span.addEventListener('click', () => {
+        // div.style.display = 'none';
+        div.style.marginTop = '-1000px';
+    })
+</script>
 
 </html>
