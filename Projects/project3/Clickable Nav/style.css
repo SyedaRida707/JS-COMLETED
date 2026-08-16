@@ -1,22 +1,20 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 header {
-    /* background-color: black; */
-    background-color: rgb(177, 227, 249);
     display: flex;
     justify-content: space-evenly;
-    padding-inline: 40px;
+    padding: 0px 30px;
+    background-color: black;
 
     & .logo {
         width: 10%;
         text-align: center;
 
         & img {
-            width: 60%;
+            width: 50%;
             height: auto;
         }
     }
@@ -26,59 +24,57 @@ header {
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        padding: 10px;
 
         & ul {
             list-style: none;
             display: flex;
-            justify-content: center;
             gap: 20px;
+            color: rgb(3, 178, 248);
         }
 
-        & .menu {
+        & span {
+            padding: 4px 7px;
+            color: rgb(3, 178, 248);
+            border-radius: 3px;
             display: none;
+            cursor: pointer;
         }
     }
 }
 
-@media (width <=550px) {
+@media (width <=500px) {
     header {
-        .logo {
-            width: 10%;
+        & .logo {
+            width: 14%;
+            display: flex;
+            align-items: center;
 
             & img {
                 width: 100%;
-                height: auto;
             }
         }
-    }
-}
 
-@media (width <=450px) {
-    header {
         & nav {
             & ul {
-                background-color: rgb(177, 227, 249);
-                position: absolute;
-                top: 0%;
-                left: -1000px;
+                background-color: black;
+                position: fixed;
+                left: -500px;
+                top: 0px;
+                width: 50%;
                 height: 100%;
                 flex-direction: column;
-                justify-content: flex-start;
-                width: 50%;
                 align-items: center;
-                gap: 20px;
                 padding-top: 20px;
                 transition: all .5s ease-in;
             }
 
-            & .menu {
+            & span {
                 display: block;
             }
         }
     }
 }
 
-.showme {
+.showmenu {
     left: 0px;
 }
