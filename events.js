@@ -213,7 +213,7 @@
 // keyup                 Key released
 // keypress              key pressed deprecated , avoid.
 
-let input = document.querySelector('.text');
+// let input = document.querySelector('.text');
 
 // input.addEventListener('keydown', ()=>{
 //     document.body.style.backgroundColor = 'yellow';
@@ -239,3 +239,64 @@ let input = document.querySelector('.text');
 // });
 
 
+// ==========Form Events=========
+
+// Events                Discription
+// submit                Form submitted
+// change                Value changed (select,checkbox,etc)
+// input                 value entered in realtime
+// focus                 input get focus
+// blur                  input get blur
+
+// let form = document.querySelector('form');
+// let input = document.querySelector('input');
+// let select = document.querySelector('select');
+
+// form.addEventListener('submit', () => {
+//     console.log('submit');
+//     document.body.style.backgroundColor = 'orange'
+// });
+
+// select.addEventListener('change', () => {
+//     console.log('change value');
+//     document.body.style.backgroundColor = 'red'
+// });
+
+// input.addEventListener('input',()=>{
+//     document.body.style.backgroundColor = 'purple'
+//     console.log('value in realtime');
+// });
+
+// input.addEventListener('focus',()=>{
+//     document.body.style.backgroundColor = 'pink'
+//     console.log('enter');
+// });
+
+// input.addEventListener('blur',()=>{
+//     document.body.style.backgroundColor = 'blue'
+//     console.log('out');
+// });
+
+
+
+// ==========Window / Document Events=========
+
+// Events                Discription
+// load                  Page fully loaded
+// scroll                page scroll
+// resize                window size change
+
+
+
+
+
+
+
+
+
+// ==========ClipBoard Events=========
+
+// Events                Discription
+// copy                  copy content
+// cut                   cut content
+// paste                 paste content
