@@ -122,14 +122,40 @@
 // it can be 0, it can be 0.99999, it can never be 1.
 // it returns a random decimal number greater than or equal to 0 and less than 1
 
-console.log(Math.random());
+// console.log(Math.random());
 
 // Math.floor() is built in js method that
 // rounds a number down to the nearest smaller whole number.
 // remove the decimal part by moving the num down to the nearest whole number
 
-console.log(Math.floor(5.3)); //5
-console.log(Math.floor(-5.3)); //-6
+// console.log(Math.floor(5.3)); //5
+// console.log(Math.floor(-5.3)); //-6
+
+
+//Math.ceil() means always go up to the next whole number.
+// console.log(Math.ceil(8.9));  // 9
+// console.log(Math.ceil(-8.9));  //-8
+
+// Math.round() is a built in js method that
+// rounds a number to the nearest whole number.
+// if the decimal part is 0.5 or greater => round up
+// if the decimal part is less than 0.5 => round down
+
+// console.log(Math.round(0.5));  // 1
+// console.log(Math.round(0.3));  //0
+
+// console.log(Math.round(8.8));  // 9
+// console.log(Math.round(-8.8));  // -9
+
+// console.log(Math.round(-2.3)); // -2
+// console.log(Math.round(-2.7)); // -3
+
+// console.log(Math.round(-8.8));
+
+
+
+
+
 
 
 
