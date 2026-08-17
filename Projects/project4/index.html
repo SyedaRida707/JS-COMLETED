@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Typing words</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .box {
+            width: 30%;
+            height: 50%;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100%;
+            border: 2px solid black;
+        }
+
+        h3 {
+            padding-top: 10px;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Words Count</h1>
+        <textarea></textarea>
+        <h3>Count <span></span></h3>
+    </div>
+</body>
+<script>
+    let textarea = document.querySelector('textarea');
+    let span = document.querySelector('span');
+
+    textarea.addEventListener('keyup', () => {
+        span.innerHTML = textarea.value.length
+    });
+</script>
+
+</html>

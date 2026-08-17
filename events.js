@@ -108,3 +108,30 @@
 //     p.classList.toggle('active')
 // });
 
+// project 2
+// create clickable navbar
+
+// project 3
+// Create typing words count
+
+
+// ================== Methods ======================
+// Math.random() is  built in method in js that,
+//  generates a random decimal num between 0 to 1.
+// it always return 0 <= number < 1
+// it can be 0, it can be 0.99999, it can never be 1.
+// it returns a random decimal number greater than or equal to 0 and less than 1
+
+console.log(Math.random());
+
+// Math.floor() is built in js method that
+// rounds a number down to the nearest smaller whole number.
+// remove the decimal part by moving the num down to the nearest whole number
+
+console.log(Math.floor(5.3)); //5
+console.log(Math.floor(-5.3)); //-6
+
+
+
+
+
