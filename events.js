@@ -154,10 +154,88 @@
 
 
 
+// ======================= Events ============================
+// An event is an action performed on a webpage
+// such as clicking, typing, or scrolling.
+
+// ==========Mouse Events=========
+
+// Events                Discription
+// Click                 Single Click
+// dblclick              Double Click
+// contextmenu           Right  Click
+// mouseenter            Mouse enter element
+// mouseleave            Mouse leaves element
+// mousedown             Mouse button pressed
+// mousemove             Mouse movement
+// mouseup               Mouse button released
 
 
+// let btn = document.querySelector('.eventss');
+
+// btn.addEventListener('click', () => {
+//     document.body.style.backgroundColor = 'skyblue'
+// });
+
+// btn.addEventListener('dblclick', () => {
+//     document.body.style.backgroundColor = 'skyblue'
+// });
+
+// btn.addEventListener('contextmenu', () => {
+//     document.body.style.backgroundColor = 'skyblue'
+// });
+
+// btn.addEventListener('mouseenter', () => {
+//     document.body.style.backgroundColor = 'skyblue'
+// });
+
+// btn.addEventListener('mouseleave', () => {
+//     document.body.style.backgroundColor = 'skyblue'
+// });
+
+// btn.addEventListener('mousedown', () => {
+//     document.body.style.backgroundColor = 'skyblue'
+// });
+
+// btn.addEventListener('mousemove', () => {
+//     document.body.style.backgroundColor = 'skyblue'
+// });
+
+// btn.addEventListener('mouseup', () => {
+//     document.body.style.backgroundColor = 'skyblue'
+// });
 
 
+// ==========Keyboard Events=========
 
+// Events                Discription
+// keydown               Key pressed (any key)
+// keyup                 Key released
+// keypress              key pressed deprecated , avoid.
+
+let input = document.querySelector('.text');
+
+// input.addEventListener('keydown', ()=>{
+//     document.body.style.backgroundColor = 'yellow';
+// });
+
+
+// input.addEventListener('keyup', ()=>{
+//     document.body.style.backgroundColor = 'yellow';
+// });
+
+// Example
+// input.addEventListener('keydown', ()=>{
+//     document.body.style.backgroundColor = 'yellow';
+// });
+
+// input.addEventListener('keyup', ()=>{
+//     document.body.style.backgroundColor = 'green';
+// });
+
+// keypress and keydown are similar, but keypress is deprecated. Use keydown instead.
+// input.addEventListener('keypress', () => {
+//     document.body.style.backgroundColor = 'yellow';
+// });
 
 
