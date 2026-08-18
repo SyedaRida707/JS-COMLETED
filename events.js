@@ -377,3 +377,64 @@
 // document.addEventListener('keydown',(e)=>{
 //     console.log(e.key);
 // });
+
+
+
+// ================== Event Delegation =====================
+// Event Delegation = Attaching one event listener to a parent 
+// element to handle events from its child elements.
+
+
+// let div = document.querySelector('div');
+// div.addEventListener('click',(e)=>{
+//     console.log(e.target);  
+// });
+
+// "Instead of putting listeners on every child, put one 
+// listener on the parent and use e.target to identify the child."
+
+
+
+// ================== Event Bubbling with stopPropagation =====================
+// an event first occurs on the target element and then bubbles up to 
+// its parent => grandparent => documment => window
+
+// Event bubbling means an event moves from the target element upward 
+// to its parent, grandparent, document, and window.
+
+// 1️⃣ Button par click hua
+//        ↓
+// 2️⃣ Event div tak gaya
+//        ↓
+// 3️⃣ Event body tak gaya
+//        ↓
+// 4️⃣ Event document tak gaya
+//        ↓
+// 5️⃣ Event window tak gaya
+
+// let div = document.querySelector('.bubble');
+// let btn = document.querySelector('button');
+
+// div.addEventListener('click', () => {
+//     console.log('div click');
+// });
+
+// btn.addEventListener('click', () => {
+//     console.log('button click');
+// });
+
+
+// event bubling and stoppropagaion() means prevent 
+// the event from bubbling futher up the DOM tree;
+
+// let div = document.querySelector('.bubble');
+// let btn = document.querySelector('button');
+
+// div.addEventListener('click', () => {
+//     console.log('div click');
+// });
+
+// btn.addEventListener('click', (e) => {
+//     e.stopPropagation();
+//     console.log('button click');
+// });
