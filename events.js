@@ -325,3 +325,55 @@
 //     console.log('Put it here');
 //     document.body.style.backgroundColor = 'yellow';
 // });
+
+
+// =====================Event Object======================
+// When an event happens, the browser gives the event handler
+// an object containing information about that event.
+
+
+// Event Object => the browser send an object to the
+// event handler with information about what happened.
+
+// click → event
+// (e) => { ... } → event handler
+// e → Event Object
+// Browser e ke andar information deta hai, jaise:
+
+// let btn = document.getElementById('eobject');
+// btn.addEventListener('click', (e) => {
+//     console.log('event click');
+//     console.log('event type ', e.type);
+//     console.log('element that triggered the event ', e.target);
+// });
+
+
+
+
+// =======================================================
+// Common Properties
+// property                discription
+// e.type                  The event of (click,keydown, etc)
+// e.target                Element that triggered the event.
+// e.key                   key pressed (keyboard events)
+// e.clientX               Mouse X position
+// e.clientY               Mouse Y position
+// e.currentTarget         the element whose event handler is currently running
+
+// TASK 4
+// let div = document.querySelector('div');
+
+// div.addEventListener('click', (e) => {
+//     if (e.target.tagName === 'BUTTON') {
+//         document.body.style.backgroundColor = 'pink'
+//         console.log(e.target);
+//         console.log(e.type);
+//         console.log(e.clientX);
+//         console.log(e.clientY);
+//         console.log(e.currentTarget);
+//     }
+// });
+
+// document.addEventListener('keydown',(e)=>{
+//     console.log(e.key);
+// });
