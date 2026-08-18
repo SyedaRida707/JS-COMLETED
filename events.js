@@ -286,11 +286,20 @@
 // scroll                page scroll
 // resize                window size change
 
+// window.addEventListener('load', ()=>{
+//     console.log('page is loaded');
+//     document.body.style.backgroundColor = 'pink';
+// });
 
+// window.addEventListener('scroll', ()=>{
+//     console.log('page is loaded');
+//     document.body.style.backgroundColor = 'pink';
+// });
 
-
-
-
+// window.addEventListener('resize', ()=>{
+//     console.log('page is loaded');
+//     document.body.style.backgroundColor = 'blue';
+// });
 
 
 
@@ -300,3 +309,19 @@
 // copy                  copy content
 // cut                   cut content
 // paste                 paste content
+
+// Ctrl + C
+// document.addEventListener('copy', ()=>{
+//     console.log('copy text');
+//     document.body.style.backgroundColor = 'yellow';
+// });
+// Ctrl + X
+// document.addEventListener('cut', ()=>{
+//     console.log('cut text means remove and copy');
+//     document.body.style.backgroundColor = 'yellow';
+// });
+// Ctrl + V
+// document.addEventListener('paste', ()=>{
+//     console.log('Put it here');
+//     document.body.style.backgroundColor = 'yellow';
+// });
