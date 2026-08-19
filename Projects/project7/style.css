@@ -45,3 +45,9 @@ body {
 .showans{
     display: block;
 }
+
+@media (width <= 400px){
+    .main{
+        width: 100%;
+    }
+}
