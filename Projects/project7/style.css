@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+    background-image: linear-gradient(to top, rgb(169, 228, 247), rgb(0, 183, 255));
+    row-gap: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.questions {
+    background-color: aliceblue;
+    padding: 10px 30px;
+    gap: 20px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 4px gray;
+
+    & h2 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        position: relative;
+
+        & span {
+            position: absolute;
+            right: 5px;
+            top: 0;
+        }
+    }
+}
