@@ -23,34 +23,31 @@
 //     });
 // });
 
-// let allQ = document.querySelectorAll('.questions h2');
+let allQ = document.querySelectorAll('.questions h2');
 
-// // second way
+// second way
 
-// allQ.forEach((Questions, Index) => {
-//     console.log(Questions, Index);
+allQ.forEach((Questions, Index) => {
+    console.log(Questions, Index);
 
-//     Questions.addEventListener('click', () => {
-//         allQ.forEach((q, i) => {
-//             console.log(q, 'click', i, Index);
-//             if (i != Index) {
-//                 q.lastElementChild.innerHTML = '❌';
-//                 q.nextElementSibling.style.display = 'none';
-//             } else {
-//                 q.nextElementSibling.style.display = 'block';
-//             }
+    Questions.addEventListener('click', () => {
+        allQ.forEach((q, i) => {
+            console.log(q, 'click', i, Index);
+            if (i != Index) {
+                q.lastElementChild.innerHTML = '❌';
+                q.nextElementSibling.style.display = 'none';
+            }
+        });
 
-//         })
+        if (Questions.lastElementChild.innerHTML == '❌') {
+            Questions.lastElementChild.innerHTML = '✔';
+            Questions.nextElementSibling.style.display = 'block';
+        } else {
+            Questions.lastElementChild.innerHTML = '❌';
+            Questions.nextElementSibling.style.display = 'none';
+        }
 
-//         if (Questions.lastElementChild.innerHTML == '❌') {
-//             Questions.lastElementChild.innerHTML = '✔';
-//             Questions.nextElementSibling.style.display = 'block';
-//         } else {
-//             Questions.lastElementChild.innerHTML = '❌';
-//             Questions.nextElementSibling.style.display = 'none';
-//         }
+    });
 
-//     });
-
-// });
+});
 
