@@ -38,3 +38,10 @@ body {
         }
     }
 }
+.ans{
+        display: none;
+    }
+
+.showans{
+    display: block;
+}
