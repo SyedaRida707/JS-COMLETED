@@ -52,7 +52,7 @@
 
 
 // ==================Query SelectorAll==================
-// // querySelectorAll select all matching elements 
+// // querySelectorAll select all matching elements
 // and returns a nodelist, Array work on (Tag,Class)
 // let li = document.querySelectorAll('li');
 // console.log(li);
@@ -68,6 +68,29 @@
 //     value.innerText = `li ${index + 1}`;
 //     console.log(value.innerText);
 // });
+
+
+
+// ==================DOM Traversing=====================
+// DOM traversing is the process of navigating through
+// the DOM tree to access parent, child or sibling elements and nodes.
+
+// Downwards (to child element)
+
+// Method                     Discription
+// element.childern           Return an HTML collection of child element 
+//                            (only element nodes, not text nodes).
+// e.firstElementChild        Return the first child element
+// e.lastElementChild         Return the last child element
+
+
+let btn = document.querySelector('#traversing');
+
+console.log(btn.children);
+console.log(btn.firstElementChild);
+console.log(btn.lastElementChild);
+
+
 
 
 
