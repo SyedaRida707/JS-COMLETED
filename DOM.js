@@ -78,19 +78,77 @@
 // Downwards (to child element)
 
 // Method                     Discription
-// element.childern           Return an HTML collection of child element 
+// element.childern           Return an HTML collection of child element
 //                            (only element nodes, not text nodes).
 // e.firstElementChild        Return the first child element
 // e.lastElementChild         Return the last child element
 
 
-let btn = document.querySelector('#traversing');
+// let div = document.querySelector('#traversing');
 
-console.log(btn.children);
-console.log(btn.firstElementChild);
-console.log(btn.lastElementChild);
+// console.log(div.children);
+// console.log(div.firstElementChild);
+// console.log(div.lastElementChild);
 
 
+// for (let v of div.children) {
+//     console.log(v);
+// };
+
+
+// check is it array => false
+// console.log(Array.isArray(div.children));
+
+// HTMLCollection not work on forEach() beacuse it's output is in array
+// but not actual array so we convert into array use Array.form
+
+// check is it array => true
+// console.log(Array.isArray(Array.from(div.children)));
+// Array.from(div.children).forEach((items) => {
+//     console.log(items);
+// });
+
+
+
+// Method                     Discription
+// e.parentElement            Return the parent element nodes.
+// e.closest('use id class')  Return the nearest ancestor including 
+//                            itself that match the selector upword.
+// e.previousElementSibling   Return the previous sibling element.
+// e.nextElementSibling       Return the next sibling element.
+
+// Upward:    parentElement, closest()
+// Sideways:  previousElementSibling, nextElementSibling
+
+// let p = document.querySelector('p');
+// let button = document.querySelector('.btn')
+
+// console.log(p.parentElement);
+// console.log(p.closest('#traversing'));
+// console.log(p.closest('p'));
+// console.log(p.previousElementSibling);
+// console.log(p.nextElementSibling);
+
+
+
+// ==================Node-based Traversing=====================
+
+// Method                     Discription
+// e.childNodes               Nodelist of all child nodes (including text,comments).
+// e.firstchild               First child node maybe text
+// e.lastchild                last child node 
+// e.parentNode               parent node (could be element document etc)
+// e.previousSibling          previous sibling node (could be text)
+// e.nextSibling              Next sibling node (could be text)
+
+// let div = document.querySelector('#traversing');
+// let btn = document.querySelector('.btn');
+// console.log(div.childNodes);
+// console.log(div.firstChild);
+// console.log(div.lastChild);
+// console.log(div.parentNode);
+// console.log(btn.previousSibling);
+// console.log(btn.nextSibling);
 
 
 
