@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    word-spacing: 4px;
+    background-image: linear-gradient(rgb(0, 140, 255), rgb(142, 224, 251));
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.grid {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: linear-gradient(deepskyblue, rgb(142, 224, 251));
+    padding: 20px 40px;
+    gap: 10px;
+    font-size: 12px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.main,
+table {
+    width: 100%;
+}
+
+.main form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 600;
+
+}
+
+input {
+    margin-bottom: 10px;
+    height: 6vh;
+    border-radius: 10px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+input:focus {
+    outline: 2px solid rgb(0, 76, 255);
+    box-shadow: 0px 0px 10px gray;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: deepskyblue;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+button:hover {
+    border: 2px solid rgb(0, 76, 255);
+}
+
+table {
+    border: 1px solid rgb(0, 76, 255);
+
+}
+
+table thead th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+@media(width <=750px) {
+    .grid {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}

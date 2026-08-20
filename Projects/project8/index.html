@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Form</title>
 </head>
+
 <body>
-    
+    <h3>Get Form Data</h3>
+    <div class="grid">
+        <div class="main">
+            <form>
+                <label for="username">Name</label>
+                <input type="text" id="username" name="username">
+                <label for="useremail">Email</label>
+                <input type="email" id="useremail" name="useremail">
+                <label for="userpassword">Password</label>
+                <input type="password" id="userpassword" name="userpassword">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="table">
+            <table border="1" cellspacing="0">
+                <thead>
+                    <th>S.no</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>button</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Rida</td>
+                        <td>rida@gmail.com</td>
+                        <td>button</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
 </body>
+
 </html>
