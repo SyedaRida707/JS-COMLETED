@@ -58,3 +58,11 @@ tbody.addEventListener('click', (e) => {
         }
     }
 });
+
+
+// data-id="", data-set=''
+// data-id is a custom data attribute in HTML.
+// It is used to store extra information/data inside an HTML element.
+// data- means we are storing custom data.
+// id is the name of the data.
+// The value is the information we want to store.
