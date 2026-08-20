@@ -472,7 +472,7 @@
 // let stop = setInterval(show, 1000);
 
 
-let div = document.querySelector('.appear');
-setTimeout(() => {
-    div.style.marginTop = '0px'
-}, 2000);
+// let div = document.querySelector('.appear');
+// setTimeout(() => {
+//     div.style.marginTop = '0px'
+// }, 2000);
