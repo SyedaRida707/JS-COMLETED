@@ -87,6 +87,13 @@ td {
     text-align: center;
 }
 
+td button{
+    background-color: red;
+}
+#error{
+    color: red;
+}
+
 @media(width <=750px) {
     .grid {
         grid-template-columns: 1fr;
