@@ -440,4 +440,39 @@
 // });
 
 
+// ===================================================
 
+// setTimeout() is a built in function of the window object in js 
+// Runs a function only ONE time after a given delay in (milliseconds).
+
+// setTimeout(()=>{
+//     console.log('i am here after 3 second');   
+// },3000);
+
+// setInterval()
+// Runs a function repeatedly after every given time interval. in (milliseconds). 
+
+// setInterval(() => {
+//     console.log('i am repeat after every 3 second');
+// }, 3000);
+
+
+// ===================================================
+// clearInterval() stop that the repeatedly execution.
+// TASK 5
+// let count = 0;
+// let show = () => {
+//     console.log('print time', count);
+//     count++;
+//     if (count === 5) {
+//         clearInterval(stop)
+//     }
+// };
+
+// let stop = setInterval(show, 1000);
+
+
+let div = document.querySelector('.appear');
+setTimeout(() => {
+    div.style.marginTop = '0px'
+}, 2000);
