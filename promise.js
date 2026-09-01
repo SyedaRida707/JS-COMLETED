@@ -259,7 +259,8 @@
 // let tasks = (subject) => {
 //     return new Promise((resolve, reject) => {
 //         setTimeout(() => {
-//             resolve(`${subject}`)
+//             // resolve(`${subject}`)
+//             reject('i reject')
 //         }, 1000)
 //     });
 // };
@@ -271,17 +272,42 @@
 //     // console.log(task2);
 
 //     // use this
-//     let allpromise = await Promise.all([
-//         tasks(`cs`),
-//         tasks(`it`)
-//     ])
-//     console.log(allpromise);
-//     console.log(allpromise[0]);
-//     console.log(allpromise[1]);
-    
+//     try {
+//         let allpromise = await Promise.all([
+//             tasks(`cs`),
+//             tasks(`it`)
+//         ])
+//         console.log(allpromise);
+//         console.log(allpromise[0]);
+//         console.log(allpromise[1]);
+//     } catch (err) {
+//         console.log(err);
+//     }
+
 // }
 // showTasks();
 
+
+// Example
+// let test = (check) => {
+//     return new Promise((resolve, reject) => {
+//         if (check) {
+//             resolve('successful');
+//         } else {
+//             reject('rejected');
+//         }
+//     })
+// }
+
+// let output = async () => {
+//     try {
+//         let test1 = await test(false);
+//         console.log(test1);
+//     } catch (err) {
+//         console.log(err);
+//     }
+// }
+// output();
 
 
 
