@@ -35,8 +35,17 @@
 // console.log(localStorage.key(0));
 
 
+// Example
+let btns = document.querySelectorAll('button');
+console.log(btns);
 
-
+btns.forEach((buttons) => {
+    buttons.addEventListener('click', () => {
+           console.log(buttons.innerHTML.toLowerCase());
+        localStorage.setItem('bgColor', buttons.innerHTML.toLowerCase());
+        document.body.style.backgroundColor = localStorage.getItem('bgColor');
+    });
+});
 
 
 
