@@ -51,3 +51,34 @@
 
 
 
+
+// Before storing an object/array in LocalStorage → JSON.stringify()
+// After getting an object/array from LocalStorage → JSON.parse()
+
+// Method	Converts
+// JSON.stringify()	JavaScript Object → JSON String
+// JSON.parse()	JSON String → JavaScript Object
+
+// STRINGIFY → Make it a string
+// PARSE → Convert the string back
+
+// let user = {
+//     name: 'rida',
+//     age: 21,
+//     course: 'CS'
+// }
+// localStorage.setItem('Student', JSON.stringify(user));
+// console.log(JSON.parse(localStorage.getItem('Student')));
+
+// // without convert JSON into object give string
+// let getValue = localStorage.getItem('Student');
+// console.log(getValue, typeof (getValue));
+
+// let getintoObject = JSON.parse(localStorage.getItem('Student'));
+// console.log(getintoObject.name);
+// console.log(getintoObject.age);
+// console.log(getintoObject.course);
+
+
+
+
