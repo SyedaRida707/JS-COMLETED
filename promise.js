@@ -175,6 +175,42 @@
 
 
 // ===================Async await===========================
+// Async/Await is a modern JavaScript feature used to handle asynchronous 
+// operations and Promises in a clean and readable way.
+
+// async
+// Used before a function.
+// An async function always returns a Promise.
+// Allows the use of await inside the function.
+
+// await
+// Used with a Promise.
+// Waits for the Promise to complete.
+// Returns the resolved value.
+// Pauses only the current async function, not the whole JavaScript program.
+
+
+// async makes the function work with asynchronous operations, and await waits 
+// for a Promise to finish and gives its result.
+
+// let myPromise = async function () {
+//     return 'hello';
+// };
+// console.log(myPromise());
+
+// myPromise().then((res)=>{
+//     console.log(res);  
+// });
+
+// async function test() {
+//     console.log('test 1');
+//     await console.log('test 2');
+//     console.log('test 3');
+// }
+// test();
+// console.log('test 4');
+
+// Example
 // let tasks = (taskAdd, time) => {
 //     return new Promise((resolve, reject) => {
 //         setTimeout(() => {
@@ -194,6 +230,57 @@
 // }
 // doneTasks();
 
+
+// =======================================
+// promise.all() is js method that runs multiple promises in 
+// parallel and waits until all of them succes.
+
+// if any promise reject catch run otherwise then run
+
+// let p1 = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         resolve('i am promise one fullfill');
+//     }, 1000);
+// });
+// let p2 = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         reject('i am promise 2 reject');
+//     }, 2000);
+// });
+
+// Promise.all([p1, p2]).then((result) => {
+//     console.log(`${result}`);
+// }).catch((err) => {
+//     console.log(err);
+// });
+
+
+// Example
+// let tasks = (subject) => {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve(`${subject}`)
+//         }, 1000)
+//     });
+// };
+
+// let showTasks = async () => {
+//     // let task1 = await tasks('CS');
+//     // console.log(task1);
+//     // let task2 = await tasks('IT');
+//     // console.log(task2);
+
+//     // use this
+//     let allpromise = await Promise.all([
+//         tasks(`cs`),
+//         tasks(`it`)
+//     ])
+//     console.log(allpromise);
+//     console.log(allpromise[0]);
+//     console.log(allpromise[1]);
+    
+// }
+// showTasks();
 
 
 
