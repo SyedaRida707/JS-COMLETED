@@ -16,6 +16,11 @@
 // Callback hell : callbacks were the original way to handle async operation too many nested
 // callbacks make code hard to read and maintain known as callbackHell or pyramid of Doom.
 
+// 👉 Before Promises and async/await, JavaScript commonly used callbacks to handle tasks that
+//  take time, such as fetching data.
+
+// When you put too many callbacks inside other callbacks, the code becomes deeply nested:
+
 
 // It looks like a pyramid shape in the code: like triangle
 // Callback hell
@@ -121,7 +126,7 @@
 //             message: 'resolve'
 //         })
 //     } else {
-//         resolve({     // array,object,string whatever you want to add remmember this is a answer of failed
+//         reject({     // array,object,string whatever you want to add remmember this is a answer of failed
 //             status: 0,
 //             message: 'rejected'
 //         })
@@ -170,7 +175,24 @@
 
 
 // ===================Async await===========================
+// let tasks = (taskAdd, time) => {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve(`task is ${taskAdd} time is ${time}`)
+//         }, time);
+//     });
+// };
 
+// let doneTasks = async () => {
+//     let task1 = await tasks('Math', 1000);
+//     console.log(task1);
+//     let task2 = await tasks('English', 1000);
+//     console.log(task2);
+//     let task3 = await tasks('urdu', 1000);
+//     console.log(task3);
+//     console.log(`All tasks done`);
+// }
+// doneTasks();
 
 
 
