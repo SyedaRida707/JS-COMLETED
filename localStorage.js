@@ -36,16 +36,18 @@
 
 
 // Example
-let btns = document.querySelectorAll('button');
-console.log(btns);
+// let btns = document.querySelectorAll('button');
+// console.log(btns);
 
-btns.forEach((buttons) => {
-    buttons.addEventListener('click', () => {
-           console.log(buttons.innerHTML.toLowerCase());
-        localStorage.setItem('bgColor', buttons.innerHTML.toLowerCase());
-        document.body.style.backgroundColor = localStorage.getItem('bgColor');
-    });
-});
+// btns.forEach((buttons) => {
+//     buttons.addEventListener('click', () => {
+//         console.log(buttons.innerHTML.toLowerCase());
+//         localStorage.setItem('bgColor', buttons.innerHTML.toLowerCase());
+//         localStorage.setItem('time', new Date().toLocaleTimeString());
+//         localStorage.setItem('Date', new Date().toDateString());
+//         document.body.style.backgroundColor = localStorage.getItem('bgColor');
+//     });
+// });
 
 
 
